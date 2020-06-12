@@ -1,0 +1,7 @@
+{
+  "name": "Qpronto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
