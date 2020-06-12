@@ -55,7 +55,7 @@ Requirements:
 
 * We want to add a quantity option for the menu
 
-** Automatically increase the overall cost
+* * Automatically increase the overall cost
 
-** Automatically decrease the overall cost
+* * Automatically decrease the overall cost
 
