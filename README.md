@@ -8,13 +8,11 @@ This test is designed to give you a chance to show off your capabilities.
 
 ## Submission
 
-1. Pick one of the scenarios
+1. Fork the repository
 
-2. Fork the repository
+2. Enter your proposed solution in your fork
 
-3. Enter your proposed solution in your fork
-
-4. Submit your proposal as a pull request
+3. Submit your proposal as a pull request
 
 ## Solution
 
@@ -29,13 +27,13 @@ Your proposed solution must include:
 
 ## Time allotted for completion
 
-Take as much time as you need, although we don't recommend you spend too much time (try to timebox yourself to max 2 hours). If you didn't complete something, state why and how you would tackle it.
+Take as much time as you need, although try to timebox yourself to max 2 hours. If you didn't complete something, state why and how you would tackle it, don't stress.
 
 # Scenarios
 
 ## 1. Display menu items
 
-Here at Qpronto, the restaurants menu is very important. We have a few different menu styles depending on the client. However the menu structure is always the same and the same core functionality exists:
+Here at Qpronto, the restaurants menu is very important. We have a few different menu styles depending on the client. However the menu structure is always the same and the same core functionality exists, here are some example fields in the menu:
 
 * CategoryId
 
