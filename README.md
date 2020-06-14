@@ -53,7 +53,7 @@ Requirements:
 
 * We want to add a quantity option for the menu
 
+  * Display total of product plus addon
   * Automatically increase the overall cost
-
   * Automatically decrease the overall cost
 
