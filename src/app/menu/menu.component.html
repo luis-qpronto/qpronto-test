@@ -1,0 +1,31 @@
+<ion-list>
+  <ion-item *ngFor="let item of menus | async">
+    <ion-thumbnail size="medium" slot="start">
+      <img [src]="item.Image">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>{{item.PlateName}}</h2>
+      <p>${{item.Price}}</p>
+      <p>Items: {{item.items}}</p>
+      <p>{{item.Size|titlecase}}</p>
+
+      <h2>Addons</h2>
+      <ng-container *ngFor="let addon of item.Addon">
+        <p>{{addon.name|titlecase}} ${{addon.price}}</p>
+      </ng-container>
+      <h2>Allergens</h2>
+      <ng-container *ngFor="let allergen of item.Allergen">
+        <p>{{allergen.description|titlecase}}</p>
+      </ng-container>
+      <h2>Totals</h2>
+      <p>Total Products {{item.totalItems()}}</p>
+      <p>Total Cost ${{item.getTotalCost()}}</p>
+    </ion-label>
+    <ion-label>
+      <ion-button (click)="openModal(item)">Edit</ion-button>
+    </ion-label>
+  </ion-item>
+
+
+
+</ion-list>
